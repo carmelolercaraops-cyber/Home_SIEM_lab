@@ -1,0 +1,3 @@
+index=siem_lab sourcetype="WinEventLog:Sysmon"
+Message="*Process Create*"
+Message="*CommandLine: cmd  /c echo Hello, from CMD!*"
