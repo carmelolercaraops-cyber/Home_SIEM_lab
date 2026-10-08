@@ -1,0 +1,74 @@
+﻿"TimeCreated","Id","ProviderName","Message"
+"07/10/2026 17:01:23","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-10-07 15:01:23.855
+ProcessGuid: {266ad8a2-5ec3-6ac6-de2a-000000005300}
+ProcessId: 532
+Image: C:\Program Files\Splunk\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\Splunk\bin\splunk-powershell.exe"" --ps2
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\Splunkd
+LogonGuid: {266ad8a2-4760-6ac6-78ff-550000000000}
+LogonId: 0x55FF78
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BE6ECE4C320213A7AA052817A9FD58E281ACAD33659C621F453588B6AA121771
+ParentProcessGuid: {266ad8a2-4763-6ac6-4302-000000005300}
+ParentProcessId: 6336
+ParentImage: C:\Program Files\Splunk\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\Splunk\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\Splunkd"
+"07/10/2026 17:01:23","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-10-07 15:01:23.809
+ProcessGuid: {266ad8a2-5ec3-6ac6-db2a-000000005300}
+ProcessId: 14832
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.26100.9278 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: C:\WINDOWS\system32\cmd.exe /c """"C:\Program Files\Splunk\bin\splunk.exe"" show-decrypted --value ""$8$2e4ml9/0qb7f3/paoAwCVQ==$IZi95E0gSqp0T7tP7XUOFezbzdzB+9mRWkHhBG9pT50VHeBzPyumOg==""""
+CurrentDirectory: C:\Program Files\Splunk\var\packages\data\postgres\db\
+User: NT SERVICE\Splunkd
+LogonGuid: {266ad8a2-4760-6ac6-78ff-550000000000}
+LogonId: 0x55FF78
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=97AC98B1A92C286054CCE55239CFCCDFC23A5517BD07FE693072C9CA96C7DABB
+ParentProcessGuid: {266ad8a2-5ec3-6ac6-da2a-000000005300}
+ParentProcessId: 13272
+ParentImage: C:\Program Files\Splunk\bin\postgres.exe
+ParentCommandLine: ""C:/Program Files/Splunk/bin/postgres.exe"" --forkchild=""backend"" 4024
+ParentUser: NT SERVICE\Splunkd"
+"07/10/2026 17:01:23","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-10-07 15:01:23.028
+ProcessGuid: {266ad8a2-5ec3-6ac6-d92a-000000005300}
+ProcessId: 7264
+Image: C:\Program Files\Splunk\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\Splunk\bin\splunk-powershell.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\Splunkd
+LogonGuid: {266ad8a2-4760-6ac6-78ff-550000000000}
+LogonId: 0x55FF78
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BE6ECE4C320213A7AA052817A9FD58E281ACAD33659C621F453588B6AA121771
+ParentProcessGuid: {266ad8a2-4763-6ac6-4302-000000005300}
+ParentProcessId: 6336
+ParentImage: C:\Program Files\Splunk\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\Splunk\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\Splunkd"
+

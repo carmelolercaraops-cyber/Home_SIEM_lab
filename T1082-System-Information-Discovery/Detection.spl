@@ -1,0 +1,1 @@
+index=siem_lab sourcetype="WinEventLog:Sysmon" Message="*systeminfo.exe*"
