@@ -1,0 +1,26 @@
+﻿"TimeCreated","Id","ProviderName","Message"
+"07/10/2026 17:07:00","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-10-07 15:07:00.903
+ProcessGuid: {266ad8a2-6014-6ac6-262d-000000005300}
+ProcessId: 2248
+Image: C:\Windows\System32\tasklist.exe
+FileVersion: 10.0.26100.1 (WinBuild.160101.0800)
+Description: Lists the current running tasks
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: tasklist.exe
+CommandLine: tasklist
+CurrentDirectory: C:\Users\LABUSER\AppData\Local\Temp\
+User: LAB-WIN01\LABUSER
+LogonGuid: {266ad8a2-4313-6ac6-bb44-050000000000}
+LogonId: 0x544BB
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA256=62800679C55682F2F5F38B3DF9080D12480BEA78B5B8476EACE9DF014F353B14
+ParentProcessGuid: {266ad8a2-6014-6ac6-242d-000000005300}
+ParentProcessId: 14796
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: ""cmd.exe"" /c tasklist
+ParentUser: LAB-WIN01\LABUSER"
+

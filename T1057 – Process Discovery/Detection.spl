@@ -1,0 +1,1 @@
+index=siem_lab sourcetype="WinEventLog:Sysmon" EventCode=1 Image="C:\\Windows\\System32\\tasklist.exe"
