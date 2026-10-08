@@ -1,0 +1,8 @@
+index=siem_lab sourcetype="WinEventLog:Sysmon"
+| search Message="*Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe*"
+| search NOT Message="*splunk-powershell.exe*"
+| rex field=Message "(?i)CommandLine:\s*(?<CommandLine>[^\r\n]+)"
+| rex field=Message "(?i)ParentImage:\s*(?<ParentImage>[^\r\n]+)"
+| search CommandLine="*-e *" OR CommandLine="*-enc *" OR CommandLine="*-encodedcommand*"
+| table _time host CommandLine ParentImage
+| sort 0 _time

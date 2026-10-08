@@ -1,0 +1,27 @@
+﻿"TimeCreated","Id","ProviderName","Message"
+"07/10/2026 16:49:29","4104","Microsoft-Windows-PowerShell","Creazione del testo di Scriptblock (1 di 1):
+prompt
+
+ID ScriptBlock: 2f61d64c-bbe5-4adf-a330-a4669f92d75a
+Percorso: "
+"07/10/2026 16:49:29","4104","Microsoft-Windows-PowerShell","Creazione del testo di Scriptblock (1 di 1):
+$global:?
+
+ID ScriptBlock: bac498b0-a2d5-4295-b455-3fd456b9f977
+Percorso: "
+"07/10/2026 16:49:29","4104","Microsoft-Windows-PowerShell","Creazione del testo di Scriptblock (1 di 1):
+Write-Host 'Hello, from PowerShell!'
+
+ID ScriptBlock: 2b504f14-6f4d-4abc-a57f-98a1dc0979dd
+Percorso: "
+"07/10/2026 16:49:29","4104","Microsoft-Windows-PowerShell","Creazione del testo di Scriptblock (1 di 1):
+& (gcm ('ie{0}' -f 'x')) (""Wr""+""it""+""e-H""+""ost 'H""+""el""+""lo, fr""+""om P""+""ow""+""erS""+""h""+""ell!'"")
+
+ID ScriptBlock: b4b43a74-85a9-4caa-bb67-70e43be98426
+Percorso: "
+"07/10/2026 16:49:28","4104","Microsoft-Windows-PowerShell","Creazione del testo di Scriptblock (1 di 1):
+Invoke-AtomicTest T1059.001 -TestNumbers 17 -PathToAtomicsFolder ""C:\Users\LABUSER\Downloads\Sysmon\atomics""
+
+ID ScriptBlock: 8d04587e-6763-4203-85ba-04ef6de48066
+Percorso: "
+
